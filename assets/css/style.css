@@ -1,0 +1,162 @@
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.navbar{
+    text-align: right;
+    padding: 25px 0 15px 20px;
+    width: 940px;
+    height: 28px;
+    margin: -8px auto -27px auto;
+}
+
+header{
+    font-family: 'Georgia', Times, Times New Roman, Times, serif;
+    color: #4aaaa5;
+}
+
+.logo{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 23px 20px 20px 20px;
+    width: 233px;
+    height: 28px;
+    margin: -28px auto 0 -20px;
+    float: left;
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: #777777;
+    padding: 0 5px 0 5px;
+}
+
+.navbar-divider{
+    padding: 0 5px 0 5px;
+}
+
+.background{
+    background-image: url(../images/concrete_seamless.png);
+    padding: 20px 10px 100px 10px;
+    border-top: solid;
+    border-color: #cccccc;
+    border-width: 2px;
+    margin: 27px -10px 0 -10px;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 920px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px auto 0 auto;
+}
+
+.header-row{
+    border-bottom: solid;
+    border-color: #dddddd;
+    border-width: 3px;
+    margin-bottom: 22px;
+}
+
+#profile-picture{
+    float: left;
+    padding-right: 30px;
+}
+
+p{
+    line-height: 200%;
+}
+
+footer{
+    background-color: #666666;
+    height: 60px;
+    border-top: solid;
+    border-color: #4aaaa5;
+    border-width: 8px;
+    margin: 0 -10px 0 -10px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    color: #cccccc;
+    margin-top: 36px;
+}
+
+input, textarea{
+    width: 895px;
+    height: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#message{
+    width: 897px;
+    height: 200px;
+}
+
+#submit{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 105px;
+    height: 35px;
+    margin: -5px 0 10px 0;
+}
+
+.img{
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px;
+    position: relative;
+}
+
+#pic1, #pic3, #pic5{
+    float: left;
+}
+
+#pic2, #pic4{
+    float: right;
+    margin-right: 300px;
+}
+
+#pic1{
+    background-image: url("../images/cat1.jpeg");
+}
+
+#pic2{
+    background-image: url("../images/cat2.jpeg");
+}
+
+#pic3{
+    background-image: url("../images/cat3.jpeg");
+}
+
+#pic4{
+    background-image: url("../images/cat4.jpeg");
+}
+
+#pic5{
+    background-image: url("../images/cat5.jpeg");
+}
+
+.bottomnav{
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 195px;
+    height: 35px;
+    padding-top: 15px;
+    margin: 15% 0 0 -97px;
+    position: absolute;
+    bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.row{
+    padding-bottom: 150px;
+    margin-bottom: 75px;
+}

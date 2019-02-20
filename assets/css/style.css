@@ -83,11 +83,11 @@ p{
 /*set color, dimensions, and placement of footer; add border between background and footer*/
 footer{
     background-color: #666666;
-    height: 60px;
+    height: 50px;
     border-top: solid;
     border-color: #4aaaa5;
     border-width: 8px;
-    margin: 0 -10px 0 -10px;
+    margin: 0 -10px -15px -10px;
 }
 
 /*center copyright notice within footer, set color, and place at bottom*/
@@ -95,7 +95,7 @@ footer{
     display: flex;
     justify-content: center;
     color: #cccccc;
-    margin-top: 36px;
+    margin-top: 26px;
 }
 
 /*set dimensions of and placement of text within data forms*/
@@ -174,7 +174,7 @@ input, textarea{
     bottom: 10px;
 }
 
-/*display link text as plain text and set text color*/
+/*display default link text as plain text and set default link text color*/
 a{
     text-decoration: none;
     color: #ffffff;
@@ -184,4 +184,32 @@ a{
 .row{
     padding-bottom: 150px;
     margin-bottom: 75px;
+}
+
+/*some bonus features*/
+
+/*apply colors to pseudoclasses to generate hover effects*/
+
+a:active{
+    color: red;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:focus{
+    color: purple;
+}
+
+/*add "sticky footer" feature: footer sticks to the bottom of the window even when there is not enough content to fill the page*/
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.background{
+    flex: 1;
 }
